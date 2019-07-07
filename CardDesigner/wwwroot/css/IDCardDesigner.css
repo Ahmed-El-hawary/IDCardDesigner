@@ -1,0 +1,56 @@
+﻿
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 100%;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+    #sortable1 li, #sortable2 li {
+        margin: auto;
+        padding: 5px;
+        font-size: 1.2em;
+        width: 98%;
+        color: inherit;
+    }
+
+.ui-resizable-helper {
+    border: 2px dotted #00F;
+}
+
+#sortable1 h3, #sortable2 h4 {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: inherit;
+    width: 98%;
+    color: inherit;
+}
+
+.liveview li {
+    border: none !important;
+    background: none !important;
+}
+
+.liveview .ui-draggable {
+    position: relative;
+}
+
+.liveview #sortable2 li {
+    padding: 0 5px;
+}
+
+.liveview #sortable2 h4 {
+    margin-bottom: 2px;
+}
+
+@media print {
+    #sortable1, #sortable2 {
+        -webkit-print-color-adjust: exact;
+    }
+}
